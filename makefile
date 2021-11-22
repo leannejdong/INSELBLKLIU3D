@@ -48,7 +48,7 @@
     CC = g++
     L = g++
     FCFLAGS = -c -m64 -fPIC -O0 -Wall -fno-automatic -fno-underscoring -fmessage-length=0 -std=legacy -Wno-intrinsic-shadow
-    CCFLAGS = -m64 -c -O0 -Wall -fmessage-length=0 
+    CCFLAGS = -m64 -c -O0 -Wall -fmessage-length=0 -fPIC
     LFLAGS = -lInselTools -ldl -m64 -shared
     RM = rm -f
   else 
