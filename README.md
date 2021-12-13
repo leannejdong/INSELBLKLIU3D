@@ -15,7 +15,9 @@ Debian-based distro: `sudo apt install ./insel_8.3.0.6b_x86_full.deb`
 
 We build insel block with [GNU Make](https://www.gnu.org/software/make/)
 
-* make
+* `make`
 
-* insel liu.insel
+* `insel liu.insel`
+
+
 
